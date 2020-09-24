@@ -1,5 +1,5 @@
 import React from 'react';
-
+import fondo from '../img/fondo.png';
 //import '../Paginas/App.css';
 
 function Registrarse() {
@@ -11,7 +11,7 @@ function Registrarse() {
       <br></br>
 
       <br></br>
-
+      
       <form className="container">
 
         <div className="input-group mb-3">
