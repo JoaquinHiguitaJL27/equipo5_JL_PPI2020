@@ -19,7 +19,7 @@ import Configuraciones from './Paginas/Configuraciones';
 ReactDOM.render(
   <React.StrictMode>
 
-    <AdopcionG/>
+    <AdopcionP/>
 
   </React.StrictMode>,
   document.getElementById('root')
