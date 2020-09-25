@@ -1,10 +1,12 @@
 import React from 'react';
 import fondo from '../img/fondo.png';
-//import '../Paginas/App.css';
+import './Pag3.css';
 
 function Registrarse() {
   return (
     <>
+<body>
+
 
       <h1 className="titulo">Registro de Petsociety</h1>
       
@@ -92,7 +94,7 @@ function Registrarse() {
               <button type="button" className="btn btn-primary">Registarse</button>
               </div>
       </form>
-      
+      </body>
     </>
   );
 }
