@@ -1,0 +1,70 @@
+Body{
+    margin:0;
+    background-image: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.titulo{
+    color: white;
+    text-align: center;
+    background: #057FFF  ;
+    height: 100px;
+    align-items: center;
+}
+.Texto{
+    display: flex;
+    align-items: center;
+    
+}
+.Boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      
+}
+
+.Formulario{
+    text-align: center;
+
+}
+.Boton1{
+    text-align: center;
+}
+.O{
+    text-align: center;
+}
+.Boton2{
+    text-align: center;
+    color: #057fff;
+ 
+}
+.Boton3{
+    text-align: center;
+   
+}
+.Boton4{
+    text-align: center;
+}
+    .container{
+       align-items: center;    
+        text-align: center;
+
+    }
+    h1{
+        color: white;
+        text-align: center;
+        background: #057FFF  ;
+        align-items: center;
+    }
+
+    .Video{
+    height: 360px!important;
+    width: auto!important;
+    }
+    .hola{
+        width: auto!important;
+    }
