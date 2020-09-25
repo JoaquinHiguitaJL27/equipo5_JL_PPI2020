@@ -60,6 +60,9 @@ function ConsejosPerros(){
       <li class="nav-item active">
         <a class="nav-link" href="#">Configuración<span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active">
+                    <a class="nav-link" href="#">Comunidad PetSociety<span class="sr-only">(current)</span></a>
+                </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

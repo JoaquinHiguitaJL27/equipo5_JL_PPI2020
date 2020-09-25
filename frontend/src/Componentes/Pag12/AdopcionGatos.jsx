@@ -62,6 +62,9 @@ PetSociety</a>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Configuración<span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Comunidad PetSociety<span class="sr-only">(current)</span></a>
+                </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
@@ -69,54 +72,58 @@ PetSociety</a>
                 </form>
             </div>
         </nav>
+        <h1>Sección adopción de gatos</h1>
 
-           <div className="container-fluid">
-<h1 className="text-center text-light bg-primary mt-5 mb-4"><b>Adopciones de gatos</b></h1>
-    <div className="row">
-    <div className="col-md-4">
-    <div className="card mb-4 shadow-sm">
-<img src={Gato1} className="card-img-top" alt="" />
-    <div className="card-body hola text-left">
-<h3 class="card-title text-white">Copito</h3>
-<h5 class="card-title text-white">Sexo: Macho</h5>
-<h5 class="card-title text-white">Edad: 2 años</h5>
-<h5 class="card-title text-white">Raza: Persa</h5>
-    <div className="d-flex justify-content-center align-items-center">
-<a href="#" class="btn btn-success">Adoptame</a> 
-    </div>
-    </div>
-    </div>
-    </div>
-    <div className="col-md-4">
-    <div className="card mb-4 shadow-sm">
-<img src={Gato3} className="card-img-top" alt="" />
-    <div className="card-body hola text-left">
-<h3 class="card-title text-white">Muñeca</h3>
-<h5 class="card-title text-white">Sexo: Hembra</h5>
-<h5 class="card-title text-white">Edad: 6 años</h5>
-<h5 class="card-title text-white">Raza: Criolla</h5>
-    <div className="d-flex justify-content-center align-items-center">
-<a href="#" class="btn btn-success">Adoptame</a>  
-    </div>
-    </div>
-    </div>
-    </div>
-    <div className="col-md-4">
-    <div className="card mb-4 shadow-sm">
-<img src={Gato2} className="card-img-top" alt="" />
-    <div className="card-body hola text-left">
-<h3 class="card-title text-white">Pelucha</h3>
-<h5 class="card-title text-white">Sexo: Hembra</h5>
-<h5 class="card-title text-white">Edad: 5 años</h5>
-<h5 class="card-title text-white">Raza: Persa</h5>
-    <div className="d-flex justify-content-center align-items-center">
-<a href="#" class="btn btn-success">Adoptame</a>  
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+<div className="album py-5 bg-light">
+    <div className="container">
+
+        <div className="row">
+            <div className="col-md-4">
+                <div className="card mb-4 shadow-sm">
+                    <img src={Gato1} className="card-img-top" alt="" />
+                    <div className="card-body">
+                        <h5 class="card-title">Pelucha</h5>
+                        <p className="card-text">Raza: Angora</p>
+                        <p className="card-text">Edad: 4 años</p>
+                        <p className="card-text">Sexo: Hembra</p>
+                        <p className="card-text">Vacunas: Al día</p>
+                        <div className="d-flex justify-content-center align-items-center">
+                            <a href="#" class="btn btn-success">Comunicarme</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div className="col-md-4">
+                <div className="card mb-4 shadow-sm">
+                    <img src={Gato2} className="card-img-top" alt="" />
+                    <div className="card-body">
+                        <h5 class="card-title">Copita</h5>
+                        <p className="card-text">Raza: Angora</p>
+                        <p className="card-text">Edad: 6 meses</p>
+                        <p className="card-text">Sexo: Hembra</p>
+                        <p className="card-text">Vacunas: Sin información</p>
+                        <div className="d-flex justify-content-center align-items-center">
+                            <a href="#" class="btn btn-success">Comunicarme</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card mb-4 shadow-sm">
+                    <img src={Gato3} className="card-img-top" alt="" />
+                    <div className="card-body">
+                        <h5 class="card-title">Muñeca</h5>
+                        <p className="card-text">Raza: criolla</p>
+                        <p className="card-text">Edad: 6 años</p>
+                        <p className="card-text">Sexo: Hembra</p>
+                        <p className="card-text">Vacunas: Al día</p>
+                        <div className="d-flex justify-content-center align-items-center">
+                            <a href="#" class="btn btn-success">Comunicarme</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+           </div>
+           </div>
             </>
             );
     }
