@@ -23,7 +23,7 @@ import Configuraciones from './Paginas/Configuraciones';
 ReactDOM.render(
   <React.StrictMode>
 
-    <AdopcionP />
+    <Configuraciones />
 
   </React.StrictMode>,
   document.getElementById('root')
