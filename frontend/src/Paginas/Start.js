@@ -2,15 +2,15 @@ import React from 'react';
 
 import './App.css';
 
-import InfoPerros from '../componentes/InfoPerros';
+import Start from '../Componentes/Pag1/Start';
 
 
 
-function InformacionP() {
+function Start() {
   return (
     <div className="App"> 
    
-    <InfoPerros />
+    <Start />
     
     
 
@@ -19,4 +19,4 @@ function InformacionP() {
   );
 }
 
-export default InformacionP;
+export default Start;
