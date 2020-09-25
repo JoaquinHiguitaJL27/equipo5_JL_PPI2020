@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../componentes/Ingreso';
+import Inicio from '../Componentes/Pag2/Inicio';
 import './App.css';
 
 
-export default function Inicio() {
+export default function Inicioa() {
   return ( 
         <div>  
-       <Header />
+       <Inicio />
         
          
       </div>

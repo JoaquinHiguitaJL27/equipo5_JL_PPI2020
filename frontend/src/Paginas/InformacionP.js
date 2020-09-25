@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import InfoPerros from '../componentes/InfoPerros';
+import InfoPerros from '../Componentes/Pag10/InfoPerros';
 
 
 

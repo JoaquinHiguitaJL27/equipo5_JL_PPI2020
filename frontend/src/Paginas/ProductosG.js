@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductosGatos from '../componentes/ProductosGatos';
+import ProductosGatos from '../Componentes/Pag7/ProductosGatos';
 import './App.css';
 
 

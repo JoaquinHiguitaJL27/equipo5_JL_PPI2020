@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import InfoGatos from '../componentes/InfoGatos';
+import InfoGatos from '../Componentes/Pag11/InfoGatos';
 
 
 

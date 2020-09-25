@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './App.css';
+import '../Componentes/Pag1/StartE.css';
 
 import Start from '../Componentes/Pag1/Start';
 
 
 
-function Start() {
+function StartP() {
   return (
     <div className="App"> 
    
@@ -19,4 +19,4 @@ function Start() {
   );
 }
 
-export default Start;
+export default StartP;

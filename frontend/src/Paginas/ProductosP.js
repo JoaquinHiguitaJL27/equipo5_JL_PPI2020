@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductosPerros from '../componentes/ProductosPerros';
+import ProductosPerros from '../Componentes/Pag6/ProductosPerros';
 import './App.css';
 
 

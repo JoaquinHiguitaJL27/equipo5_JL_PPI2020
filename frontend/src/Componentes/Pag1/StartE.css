@@ -1,9 +1,18 @@
-body{
+Body{
     margin:0;
-    min-height: 100vh;
-    background-image: url(fondo.png);
+    background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
+
+.imagen{
+    margin-left: 50px;
+
+}
+
+    
+
+    

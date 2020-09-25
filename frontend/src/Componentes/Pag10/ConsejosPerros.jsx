@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Paginas/App.css';
-import Logo from '../Paginas/img/Logo1.png';
+import './ConsejosPE.css';
+import Logo from '../img/Logo1.png';
 import ReactPlayer from 'react-player';
 
 function ConsejosPerros(){

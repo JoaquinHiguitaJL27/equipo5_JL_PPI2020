@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../Paginas/App.css';
+import './RegistroE.css';
 
 
 function Registro() {

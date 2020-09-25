@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo1 from '../img/Logosincachito.png';
-import '../Paginas/App.css';
+import './InicioE.css';
 
 
 function Inicio() {

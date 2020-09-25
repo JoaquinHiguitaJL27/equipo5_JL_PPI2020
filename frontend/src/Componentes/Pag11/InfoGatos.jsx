@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from '../Paginas/img/Logo1.png';
-import BG from '../Paginas/img/InfoG.jpg';
-import '../Paginas/InfoGatos.css';
+import Logo from '../img/Logo1.png';
+import BG from '../img/InfoG.jpg';
+import './InfoGatos.css';
 
 
 function InfoGatos() {

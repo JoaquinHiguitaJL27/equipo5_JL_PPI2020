@@ -1,6 +1,6 @@
 import React from 'react';
-import ConsejosPerros from '../componentes/ConsejosPerros';
-import './App.css';
+import ConsejosPerros from '../Componentes/Pag10/ConsejosPerros';
+
 
 
 export default function ConsejosP() {

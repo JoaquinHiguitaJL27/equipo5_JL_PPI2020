@@ -1,25 +1,25 @@
 import React from 'react';
-import '../Paginas/App.css';
-import Imagen1 from '../Paginas/img/Gatossession1.jpg';
-import Imagen2 from '../Paginas/img/Gatossession2.jpg';
-import Imagen3 from '../Paginas/img/Gatossession5.jpg';
-import Logo from '../Paginas/img/Logo1.png';
-import Producto1 from '../Paginas/img/PurinaCat.png';
-import Producto2 from '../Paginas/img/PurinaCat1.1.png';
-import Producto3 from '../Paginas/img/PurinaCat1.2.png';
-import Producto4 from '../Paginas/img/PurinaCat1.3.png';
-import Producto5 from '../Paginas/img/PurinaCat1.4.png';
-import Producto6 from '../Paginas/img/PurinaCat1.5.png';
-import Producto7 from '../Paginas/img/PurinaCat1.6.png';
-import Producto8 from '../Paginas/img/MedCat.png';
-import Producto9 from '../Paginas/img/MedCat1.0.png';
-import Producto10 from '../Paginas/img/MedCat1.1.png';
-import Producto11 from '../Paginas/img/MedCat1.2.png';
-import Producto12 from '../Paginas/img/AccCat.png';
-import Producto13 from '../Paginas/img/AccCat1.0.png';
-import Producto14 from '../Paginas/img/AccCat1.1.png';
-import Producto15 from '../Paginas/img/AccCat1.2.png';
-import Producto16 from '../Paginas/img/AccCat1.3.png';
+import './ProductosGE.css';
+import Imagen1 from '../img/Gatossession1.jpg';
+import Imagen2 from '../img/Gatossession2.jpg';
+import Imagen3 from '../img/Gatossession5.jpg';
+import Logo from '../img/Logo1.png';
+import Producto1 from '../img/PurinaCat.png';
+import Producto2 from '../img/PurinaCat1.1.png';
+import Producto3 from '../img/PurinaCat1.2.png';
+import Producto4 from '../img/PurinaCat1.3.png';
+import Producto5 from '../img/PurinaCat1.4.png';
+import Producto6 from '../img/PurinaCat1.5.png';
+import Producto7 from '../img/PurinaCat1.6.png';
+import Producto8 from '../img/MedCat.png';
+import Producto9 from '../img/MedCat1.0.png';
+import Producto10 from '../img/MedCat1.1.png';
+import Producto11 from '../img/MedCat1.2.png';
+import Producto12 from '../img/AccCat.png';
+import Producto13 from '../img/AccCat1.0.png';
+import Producto14 from '../img/AccCat1.1.png';
+import Producto15 from '../img/AccCat1.2.png';
+import Producto16 from '../img/AccCat1.3.png';
 
 
 

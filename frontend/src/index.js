@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './Paginas/App';
-import Start from './Paginas/Start';
+import Start from './Paginas/StartP';
 import Inicio from './Paginas/Inicio';
-import Registro from './Paginas/Registro';
+import Registro from './Paginas/Registrarse';
 import ProductosP from './Paginas/ProductosP';
 import ProductoG from './Paginas/ProductosG';
 import ConsejosP from './Paginas/ConsejosP';
@@ -19,7 +19,7 @@ import Configuraciones from './Paginas/Configuraciones';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Start />
+    <AdopcionG/>
 
   </React.StrictMode>,
   document.getElementById('root')

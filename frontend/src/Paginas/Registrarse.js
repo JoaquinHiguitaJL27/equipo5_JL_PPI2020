@@ -1,6 +1,6 @@
 import React from 'react';
-import Registro from '../componentes/Registro';
-import './App.css';
+import Registro from '../Componentes/Pag3/Registro';
+
 
 
 export default function Registrarse() {

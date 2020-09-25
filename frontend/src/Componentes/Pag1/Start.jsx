@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo1 from '../img/Logosincachito.png';
-import '../Paginas/App.css';
+import './StartE.css';
 
 
 function Start(){
@@ -10,7 +10,7 @@ function Start(){
        <h1 className="titulo">Bienvenido a PetSociety</h1>
 
        
-      <img className="container" style={{marginTop:"50px"}} src={Logo1}/>
+      <img className="imagen" style={{marginTop:"50px"}} src={Logo1}/>
     
 
        <div className="Boton">
