@@ -73,7 +73,7 @@ function InfoGatos() {
             </nav>
 
 
-            <h2 className="text-center">¿Cómo bañar a un gato adulto por primera vez?</h2>
+            <h2 className="jl text-center">¿Cómo bañar a un gato adulto por primera vez?</h2>
 
             <img className="container" src={BG} />
 <br></br>
@@ -84,11 +84,11 @@ function InfoGatos() {
             Si tu minino te complica las cosas a la hora de bañarlo, puedes optar por llevarlo a una estética para mascotas.
             No hay como bañar un gato en un ambiente totalmente tranquilo y controlado acompañado de caricias.</p>
 
-            <h2>¿Cómo bañar a tu gato?</h2>
+            <h2 className="jl">¿Cómo bañar a tu gato?</h2>
 
             <p>Para llevar a cabo el baño a un gato, deberás tener tacto y paciencia. Aunque a tu gato le guste el agua, cualquier movimiento brusco puede generarle estrés y miedo, esto complicaría la actividad sobre cómo bañar un gato.</p>
 
-            <h2>Recomendaciones</h2>
+            <h2 className="jl">Recomendaciones</h2>
 
             <p>Puedes usar la bañera, o un recipiente que se ajuste a su tamaño. Es conveniente que coloques una alfombra en la superficie para evitar que tu gato se resbale con las uñas. Sus patitas y los recipientes resbalosos o incluso la bañera puede ser un gran obstáculo para el baño. Te recomendamos los tapetes de baño que puedes encontrar en las tiendas de mascota o incluso en tiendas para el hogar.
             Procura utilizar agua tibia (a unos 30 grados), asì tu gato no pasará frío y disfrutará del agua para su piel y disfrutar el baño.

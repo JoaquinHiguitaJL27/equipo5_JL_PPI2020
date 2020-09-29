@@ -16,6 +16,7 @@ import InformacionG from './Paginas/InformacionG';
 import AdopcionG from './Paginas/AdopcionG';
 import AdopcionP from './Paginas/AdopcionP';
 import Configuraciones from './Paginas/Configuraciones';
+import ComunidadPet from './Paginas/ComunidadPet';
 
 
 
@@ -23,7 +24,7 @@ import Configuraciones from './Paginas/Configuraciones';
 ReactDOM.render(
   <React.StrictMode>
 
-    <InformacionP />
+    <App />
 
   </React.StrictMode>,
   document.getElementById('root')

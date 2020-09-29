@@ -73,7 +73,7 @@ function InfoPerros() {
             </nav>
 
 
-            <h2 className="text-center">¿Cómo bañar a un cachorro por primera vez?</h2>
+            <h2 className="jl text-center">¿Cómo bañar a un cachorro por primera vez?</h2>
 
             <img className="container" src={BP} />
 <br></br>
@@ -81,17 +81,17 @@ function InfoPerros() {
 
 <p>Para que no pases por alto ningún detalle y logres hacer de este un momento placentero para ambos, hemos preparado este post sobre cómo bañar a un perro en casa. La guía incluye cómo se debe cuidar el pelo según la raza; cuál es la frecuencia idónea con la que debes bañar a tu perro, y un paso a paso detallado para que la tarea resulte lo más sencilla posible.</p>
 
-<h2>HA LLEGADO EL MOMENTO DEL BAÑO</h2>
+<h2 className="jl">HA LLEGADO EL MOMENTO DEL BAÑO</h2 >
  
 <p>Si tu perro huele mal puede que necesite un baño. En el caso de los perros, el baño es una rutina esencial. No solo es un aspecto fundamental de la salud y el bienestar de tu perro; también del tuyo. Es cierto que puedes optar por un centro especializado donde bañen a tu perro. Sin embargo, hacerlo en casa puede resultar muy beneficioso. Con un poco de paciencia puedes lograr que el baño sea un momento placentero para los dos que sirva para estrechar lazos.
 Antes de llenar la bañera, ten en cuenta que para que resulte una tarea cómoda, sencilla y lo más tranquila posible, debes cuidar algunos detalles. Por eso, antes de saber cómo bañar a un perro debemos pensar en los factores que ajustarán la rutina para que sea la más adecuada en cada caso.</p>
 
-<h2>FACTORES QUE DETERMINAN CÓMO BAÑAR A UN PERRO </h2>
+<h2 className="jl">FACTORES QUE DETERMINAN CÓMO BAÑAR A UN PERRO </h2>
 
 <p>Aunque algunos perros detestan el baño, hay muchos que lo adoran. Si es tu caso, ya tienes mucho camino ganado. Si no lo es, no desesperes. Estableciendo una rutina acorde a la raza, al carácter y el espacio que tengas en casa, poco a poco puedes lograr que tu perro, al menos, no salga corriendo cuando oiga la palabra baño.
 Como ocurre con el establecimiento de otras rutinas, como hacer sus necesidades en la calle, que duerma en el lugar adecuado..., tu perro necesita aprender que periódicamente le darás un baño. Esta rutina se ajustará a sus características: raza, tipo de pelo, su carácter… Pero también a las tuyas: el espacio donde realices el baño, tu destreza para hacerlo, etc.</p>
 
-<h2>CON CUÁNTA FRECUENCIA DEBES BAÑAR A TU PERRO</h2>
+<h2 className="jl">CON CUÁNTA FRECUENCIA DEBES BAÑAR A TU PERRO</h2>
  
 <p>En general no hay una pauta fija. En verano puedes bañar a tu perro con más asiduidad; en invierno menos. Lo importante es no abusar del uso de los champús. A pesar de que sean especiales para tu perro, a la larga podría dañar la capa grasa que protege su piel y su pelo.
 Podemos establecer la frecuencia del baño en base a algunos parámetros:
@@ -99,7 +99,7 @@ Estilo de vida. El lugar donde vive tu perro y sus hábitos diarios pueden ayuda
 Tipo de pelo y raza. Uno de los factores que diferencia unas razas de otras es el tipo de pelo y piel. No necesitarán la misma frecuencia los perros de pelo corto que los de pelo largo. Del mismo modo, existe una amplia gama de champús y acondicionadores que se adaptan a cada tipo de pelo. No dudes en pedir asesoramiento en tu centro veterinario.
 Problemas de piel. Si tu perro tiene tendencia a alguna enfermedad dermatológica, es probable que tu veterinario establezca la frecuencia idónea para su baño, así como los productos que puedes usar. Si tienes cualquier duda, consúltala. </p>
 
-<h2>CONSIDERACIONES PREVIAS</h2>
+<h2 className="jl">CONSIDERACIONES PREVIAS</h2>
  
 <p>Antes de aprender cómo bañar a un perro, hay algunas consideraciones que debes tener en cuenta. Como ya hemos apuntado, debes tener el champú específico que se adapta a las características de tu perro. Si por ejemplo tu perro tiene piel atópica, lo mejor es usar un champú específico, como el ADVANCE Atopic Champú.
 Haz los preparativos correspondientes y no dejes nada al azar: ten dispuestas algunas toallas y una fuente de calor (como por ejemplo un secador) para secar bien la piel de tu perro; no olvides tener a mano algunos premios. Es muy importante reforzar los comportamientos correctos.
@@ -107,7 +107,7 @@ Recuerda que no deberías bañar a tu cachorro hasta que no haya finalizado el p
 Si tu cachorro necesita un baño porque se ha ensuciado, tienes dos opciones. O bien, lavarlo en seco, o bien utilizar toallitas higiénicas que puedes utilizar con tu cachorro. Si el baño fuese imprescindible, usa un champú especial para cachorros y asegúrate de secarlo bien para evitar que se enfríe.
 Por último, recuerda que es muy importante procurar que la experiencia del baño sea positiva. Es la clave para poder repetirla en el futuro sin altercados. Si observas que tu perro se estresa o tiene ansiedad, es mejor finalizar el baño y retomarlo en otro momento. Hay perros que necesitan un entrenamiento de varios días y mucha paciencia para completar un baño. Lo mejor es habituar a tu perro desde que es pequeño.</p>
 
-<h2>CÓMO BAÑAR A UN PERRO</h2>
+<h2 className="jl">CÓMO BAÑAR A UN PERRO</h2>
  
 <p>Ha llegado el momento, veamos cómo bañar a un perro en casa. Cuando tengas todo listo, elige el espacio en el que realizarás el baño y lleva allí a tu perro. Después, sigue los siguientes pasos:
 Para empezar, utiliza agua templada, entre 38 y 39 grados. Empieza mojando las extremidades y después la zona lumbar. Sube poco a poco hacia la cabeza de tu perro.
