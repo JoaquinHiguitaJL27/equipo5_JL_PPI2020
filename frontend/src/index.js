@@ -24,7 +24,7 @@ import ComunidadPet from './Paginas/ComunidadPet';
 ReactDOM.render(
   <React.StrictMode>
 
-    <ComunidadPet />
+    <Registro />
 
   </React.StrictMode>,
   document.getElementById('root')

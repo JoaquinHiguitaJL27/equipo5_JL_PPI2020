@@ -5,22 +5,24 @@ import './StartE.css';
 
 function Start(){
     return(
-< >
-<div classname="fondo">
-       <h1 className="Bienvenido">Bienvenido a PetSociety</h1>
+        <>
+        <div className="fondo">
+
+<div className="container text-center">
+       <h1 className="Bienvenido mt-5 mb-5">Bienvenido a PetSociety</h1>
 
        
-      <img className="imagenbienvenido" style={{marginTop:"50px"}} src={Logo1}/>
+      <img className="imagenbienvenido mt-4 mb-5" src={Logo1}/>
     
 
-       <div className="Botonbienvenido">
-        <button type="button" style={{marginTop:"60px"}} className="btn btn-primary btn-lg">Start</button>
+       <div className="Botonbienvenido mt-5 mb-5">
+        <button type="button"  className="btn btn-primary btn-lg">Start</button>
                </div>
         
 
 </div>
-     </>
-     
+</div>
+</>
     );
 
     
