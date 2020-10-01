@@ -9,11 +9,12 @@ import Ayuda from '../img/Ayuda.png';
 import Usuario from '../img/Usuario.jpeg';
 import Logo from '../img/Logo1.png';
 
+import './Configuraciones.css';
 
 function Configuraciones () {
     return(
         <>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+        <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
         <a className="navbar-brand" href="#">
             <img src={Logo} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
 PetSociety</a>
@@ -77,95 +78,24 @@ PetSociety</a>
             </form>
         </div>
     </nav>
-    <h1>Configuraciones</h1>
+    
 
-<div className="album py-5 bg-light">
-<div className="container">
+    <div className="container text-center">
+  
+    <img className="mb-2 mt-2 logoconfig" src={Logo} />
+    <h1 className="tituloconfig mt-5 mb-5">Configuraciones</h1>
 
-    <div className="row">
-    <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Usuario} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Ver perfil</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Notificaciones} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Notificaciones</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Privacidad} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Privacidad</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Seguridad} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Seguridad</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Cuenta} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Cuenta</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Ayuda} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Ayuda</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={Informacion} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Informacion</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="card mb-4 shadow-sm">
-                <img src={InvitarAmigos} className="card-img-top" alt="" />
-                <div className="card-body">
-                    <div className="d-flex justify-content-center align-items-center">
-                        <a href="#" class="btn btn-primary">Invitar amigos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-       </div>
-       </div>
+<button type="button" class="btn btn-primary btn-lg btn-block">Usuario</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Notificaciones</button>
+<button type="button" class="btn btn-primary btn-lg btn-block">Privacidad</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Seguridad</button>
+<button type="button" class="btn btn-primary btn-lg btn-block">Cuenta</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Ayuda</button>
+<button type="button" class="btn btn-primary btn-lg btn-block">Información</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Invitar amigos</button>
+
+</div>
+  
       
         </>
         );

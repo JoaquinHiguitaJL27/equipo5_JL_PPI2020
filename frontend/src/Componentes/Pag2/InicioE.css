@@ -1,16 +1,12 @@
 
-.titulo{
+.tituloinicio{
     color: white;
     text-align: center;
     background: #057FFF  ;
     height: 100px;
     align-items: center;
 }
-.Texto{
-    display: flex;
-    align-items: center;
-    
-}
+
 .Boton{
     display: flex;
     justify-content: center;
@@ -19,10 +15,6 @@
       
 }
 
-.Formulario{
-    text-align: center;
-
-}
 .Boton1{
     text-align: center;
 }
@@ -46,17 +38,4 @@
         text-align: center;
 
     }
-   .titulo{
-        color: white;
-        text-align: center;
-        background: #057FFF  ;
-        align-items: center;
-    }
-
-    .Video{
-    height: 360px!important;
-    width: auto!important;
-    }
-    .hola{
-        width: auto!important;
-    }
+ 

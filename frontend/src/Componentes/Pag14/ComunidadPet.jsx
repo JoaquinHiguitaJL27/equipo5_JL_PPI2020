@@ -7,7 +7,7 @@ import perfil from '../img/perfil.png';
 function ComunidadPet(){
     return(
 < >
-<nav className="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+<nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
                 <a className="navbar-brand" href="#">
                     <img src={Logo} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
     PetSociety</a>
@@ -72,7 +72,7 @@ function ComunidadPet(){
                 </div>
             </nav>
         <div className="container">
-<div className="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+<div className="jumbotron p-4 p-md-5 text-white rounded bg-dark mt-5">
     <div className="col-md-6 px-0">
       <h1 className="ki text-left display-4 font-italic"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Título de una publicación de blog más extensa</font></font></h1>
       <p className="lead my-3"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Varias líneas de texto que forman el lede, informando a los nuevos lectores de forma rápida y eficaz sobre lo más interesante de los contenidos de este post.</font></font></p>

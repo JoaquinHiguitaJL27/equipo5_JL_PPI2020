@@ -27,7 +27,7 @@ import Producto16 from '../img/AccCat1.3.png';
 function ProductosGatos() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+            <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
                 <a className="navbar-brand" href="#">
                     <img src={Logo} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
     PetSociety</a>
@@ -119,9 +119,9 @@ function ProductosGatos() {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-
-            <h1 className="titulo">Sección gatos</h1>
-
+<div className="container">
+            <h1 className="titulosecciongatos mt-5">Sección gatos</h1>
+            </div>
             <div className="album py-5 bg-light">
                 <div className="container">
 

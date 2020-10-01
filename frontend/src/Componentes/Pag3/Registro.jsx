@@ -7,7 +7,7 @@ function Registro() {
   return (
     <>
 
-      <h1 className="titulo">Registro de Petsociety</h1>
+      <h1 className="tituloregistro">Registro de Petsociety</h1>
       
       <br></br>
 

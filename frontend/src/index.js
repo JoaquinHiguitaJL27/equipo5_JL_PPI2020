@@ -9,7 +9,7 @@ import Start from './Paginas/StartP';
 import Inicio from './Paginas/Inicio';
 import Registro from './Paginas/Registrarse';
 import ProductosP from './Paginas/ProductosP';
-import ProductoG from './Paginas/ProductosG';
+import ProductosG from './Paginas/ProductosG';
 import ConsejosP from './Paginas/ConsejosP';
 import InformacionP from './Paginas/InformacionP';
 import InformacionG from './Paginas/InformacionG';

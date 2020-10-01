@@ -29,7 +29,7 @@ import Producto20 from '../img/Acc1.5.png';
 function ProductosPerros() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+            <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
                 <a className="navbar-brand" href="#">
                     <img src={Logo} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
     PetSociety</a>
@@ -121,9 +121,9 @@ function ProductosPerros() {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-<br></br>
-            <h1 className="titulo">Sección perros</h1>
-<br></br>
+            <div className="container">
+            <h1 className="tituloseccionperros mt-5">Sección perros</h1>
+            </div>
             <div className="album py-5 bg-light">
                 <div className="container">
 

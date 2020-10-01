@@ -6,8 +6,7 @@ import './InicioE.css';
 function Inicio() {
   return (
     <>
-    {/* */}
-      <h1 class="titulo">Bienvenido a PetSociety</h1>
+      <h1 class="tituloinicio">Bienvenido a PetSociety</h1>
 
       <img className="container" style={{marginTop:"25px"}} src={Logo1} />
 

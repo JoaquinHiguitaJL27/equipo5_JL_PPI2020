@@ -1,49 +1,17 @@
 
-.titulo{
-    color: white;
-    text-align: center;
-    background: #057FFF  ;
-    height: 100px;
-    align-items: center;
-}
-.Texto{
-    display: flex;
-    align-items: center;
-    
-}
-.Boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-      
-}
 
-.Formulario{
-    text-align: center;
-
-}
-.Boton1{
-    text-align: center;
-}
-.O{
-    text-align: center;
-}
 .Boton2{
     text-align: center;
     color: #057fff;
- 
-}
-.Boton3{
-    text-align: center;
-   
-}
-.Boton4{
-    text-align: center;
-}
-    .container{
-       align-items: center;    
-        text-align: center;
 
     }
 
+
+    .tituloregistro{
+        color: white;
+        text-align: center;
+        background: #057FFF  ;
+        height: 100px;
+        align-items: center;
+    }
+    

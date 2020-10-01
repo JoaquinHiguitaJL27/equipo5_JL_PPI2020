@@ -7,13 +7,13 @@ function Start(){
     return(
 < >
 <div classname="fondo">
-       <h1 className="titulo">Bienvenido a PetSociety</h1>
+       <h1 className="Bienvenido">Bienvenido a PetSociety</h1>
 
        
-      <img className="imagen" style={{marginTop:"50px"}} src={Logo1}/>
+      <img className="imagenbienvenido" style={{marginTop:"50px"}} src={Logo1}/>
     
 
-       <div className="Boton">
+       <div className="Botonbienvenido">
         <button type="button" style={{marginTop:"60px"}} className="btn btn-primary btn-lg">Start</button>
                </div>
         

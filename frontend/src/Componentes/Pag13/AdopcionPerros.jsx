@@ -72,7 +72,7 @@ PetSociety</a>
             </form>
         </div>
     </nav>
-    <h1>Sección adopción de perros</h1>
+    <h1 className="adopperros">Sección adopción de perros</h1>
 
 <div className="album py-5 bg-light">
 <div className="container">
