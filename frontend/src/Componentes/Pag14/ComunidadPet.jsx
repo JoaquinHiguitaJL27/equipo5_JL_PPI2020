@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../img/Logo1.png';
-import  './ComunidadPet.css'
+import  './ComunidadPet.css';
+import perfil from '../img/perfil.png';
 
 
 function ComunidadPet(){
@@ -70,11 +71,26 @@ function ComunidadPet(){
                     </form>
                 </div>
             </nav>
-        
-<div className="contenedor">
-<h2>HYola</h2>
+        <div className="container">
+<div className="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+    <div className="col-md-6 px-0">
+      <h1 className="ki text-left display-4 font-italic"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Título de una publicación de blog más extensa</font></font></h1>
+      <p className="lead my-3"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Varias líneas de texto que forman el lede, informando a los nuevos lectores de forma rápida y eficaz sobre lo más interesante de los contenidos de este post.</font></font></p>
+      <p className="lead mb-0"><a href="#" className="text-white font-weight-bold"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Sigue leyendo...</font></font></a></p>
+    </div>   
+  </div>    
 </div>
-
+<div class="sugerencias row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 flex-column position-static">
+          <img className="rounded-circle d-inline" width="32" height="32" src={perfil} />
+          <h5 className="mb-2 text-primary alLado">Perfil</h5> 
+          <h6 className="mb-1 text-muted">30 Sept 2020</h6>
+          <h3 className="mb-0.5"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Publicación destacada</font></font></h3>
+    <div className="contenedor2">
+          <p class="card-text mb-auto"><font className="vertical-align: inherit;"><font className="vertical-align: inherit;">Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a contenido adicional; sisi vale, como va todo¡?</font></font></p>
+    </div>
+        </div>
+</div>
      </>
      
     );

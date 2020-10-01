@@ -1,12 +1,4 @@
-Body{
-    margin:0;
-    background-image: url(../Componentes/img/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}
+
 .titulo{
     color: white;
     text-align: center;
@@ -54,12 +46,12 @@ Body{
         text-align: center;
 
     }
-    h1{
+    /*h1{
         color: white;
         text-align: center;
         background: #057FFF  ;
         align-items: center;
-    }
+    }*/
 
     .Video{
     height: 360px!important;

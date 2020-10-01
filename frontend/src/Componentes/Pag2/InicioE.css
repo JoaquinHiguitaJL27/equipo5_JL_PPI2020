@@ -1,12 +1,4 @@
-Body{
-    margin:0;
-    background-image: url(../img/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}
+
 .titulo{
     color: white;
     text-align: center;
@@ -54,7 +46,7 @@ Body{
         text-align: center;
 
     }
-    h1{
+   .titulo{
         color: white;
         text-align: center;
         background: #057FFF  ;

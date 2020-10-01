@@ -6,7 +6,7 @@ import './StartE.css';
 function Start(){
     return(
 < >
-
+<div classname="fondo">
        <h1 className="titulo">Bienvenido a PetSociety</h1>
 
        
@@ -18,7 +18,7 @@ function Start(){
                </div>
         
 
-
+</div>
      </>
      
     );

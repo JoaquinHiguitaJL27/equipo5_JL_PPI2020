@@ -120,7 +120,7 @@ function ProductosGatos() {
                 </a>
             </div>
 
-            <h1>Sección gatos</h1>
+            <h1 className="titulo">Sección gatos</h1>
 
             <div className="album py-5 bg-light">
                 <div className="container">

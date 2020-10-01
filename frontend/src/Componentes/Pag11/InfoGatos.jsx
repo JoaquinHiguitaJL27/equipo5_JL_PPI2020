@@ -78,7 +78,7 @@ function InfoGatos() {
             <img className="container" src={BG} />
 <br></br>
 <br></br>
-            <p>La mayoría de los gatos pasan su vida sin necesidad de tomar un baño, pero a veces un chapuzón rápido es inevitable.
+            <p className="Parrafo">La mayoría de los gatos pasan su vida sin necesidad de tomar un baño, pero a veces un chapuzón rápido es inevitable.
             Necesitarás un champú especial para limpiar y desenredar su pelo, además de cuidar su piel.
             A pesar de lo que muchos creen, existen gatos que disfrutan mucho los baños, sobre todo si de pequeños les han dado baños tibios de vez en cuando.
             Si tu minino te complica las cosas a la hora de bañarlo, puedes optar por llevarlo a una estética para mascotas.
@@ -90,7 +90,7 @@ function InfoGatos() {
 
             <h2 className="jl">Recomendaciones</h2>
 
-            <p>Puedes usar la bañera, o un recipiente que se ajuste a su tamaño. Es conveniente que coloques una alfombra en la superficie para evitar que tu gato se resbale con las uñas. Sus patitas y los recipientes resbalosos o incluso la bañera puede ser un gran obstáculo para el baño. Te recomendamos los tapetes de baño que puedes encontrar en las tiendas de mascota o incluso en tiendas para el hogar.
+            <p className="Parrafo">Puedes usar la bañera, o un recipiente que se ajuste a su tamaño. Es conveniente que coloques una alfombra en la superficie para evitar que tu gato se resbale con las uñas. Sus patitas y los recipientes resbalosos o incluso la bañera puede ser un gran obstáculo para el baño. Te recomendamos los tapetes de baño que puedes encontrar en las tiendas de mascota o incluso en tiendas para el hogar.
             Procura utilizar agua tibia (a unos 30 grados), asì tu gato no pasará frío y disfrutará del agua para su piel y disfrutar el baño.
             Utiliza un champú específico para felinos. Éste último punto es muy importante, porque los champús para humanos, aunque sean neutros, no respetan el PH de la piel de los gatos.
             ¡Ahora sí! Tomemos un baño
