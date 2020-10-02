@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Logo1 from '../img/Logosincachito.png'
 import './RegistroE.css';
 
 
@@ -7,8 +7,10 @@ function Registro() {
   return (
     <>
 
-      <h1 className="tituloregistro">Registro de Petsociety</h1>
-      
+      <h1 className="tituloregistro mt-4">Registro de Petsociety</h1>
+      <center>
+      <img className="logo" src={Logo1}></img>
+      </center>
       <br></br>
 
       <br></br>
@@ -26,14 +28,14 @@ function Registro() {
         </div>
         <div className="form-row">
           <div className="col-md-6 mb-3">
-            <label for="validationCustom01">First name</label>
+            <label for="validationCustom01">Nombres</label>
             <input type="text" className="form-control" id="validationCustom01" value="" required></input>
             <div className="valid-feedback">
               Looks good!
       </div>
           </div>
           <div className="col-md-6 mb-3">
-            <label for="validationCustom02">Last name</label>
+            <label for="validationCustom02">Apellidos</label>
             <input type="text" className="form-control" id="validationCustom02" value="" required></input>
             <div className="valid-feedback">
               Looks good!
@@ -41,11 +43,16 @@ function Registro() {
           </div>
         </div>
 
-        <div className="form-row">
-          <div className="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" className="form-control" id="inputEmail4"></input>
-          </div>
+        <div className="form-group">
+          <label for="inputEmail4">Correo electronico</label>
+          <input type="email" className="form-control" id="inputEmail4"></input>
+        </div>
+        <div className="form-group">
+          <label for="inputAge">Fecha de nacimiento</label>
+          <input type="text" className="form-control" id="inputAge"></input>
+          <small>
+            dia/mes/año
+        </small>
         </div>
         <div className="form-group">
           <label for="inputAge">Edad</label>
@@ -54,12 +61,12 @@ function Registro() {
         <label for="inputPassword5">Contraseña</label>
         <input type="password" id="inputPassword5" className="form-control" aria-describedby="passwordHelpBlock"></input>
         <small id="passwordHelpBlock" className="form-text text-muted">
-          Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+        Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
 </small>
         <label for="inputPassword5">Repita la contraseña</label>
         <input type="password" id="inputPassword5" className="form-control" aria-describedby="passwordHelpBlock"></input>
         <small id="passwordHelpBlock" className="form-text text-muted">
-          Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+        Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
 </small>
         <div className="form-group">
           <label for="exampleFormControlSelect1">Tipo de identificación</label>
@@ -83,12 +90,12 @@ function Registro() {
           <label for="inputAddress">Telefono</label>
           <input type="text" className="form-control" id="inputAddress" placeholder="123456789"></input>
         </div>
-        <div className="form-row">
-          <div className="form-group col-md-6">
-            <label for="inputCity">Barrio</label>
-            <input type="text" className="form-control" id="inputCity"></input>
-          </div>
+      
+          <div className="form-group">
+          <label for="inputCity">Barrio</label>
+          <input type="text" className="form-control" id="inputCity"></input>
         </div>
+     
         <div classNameName="Boton2">
               <button type="button" className="btn btn-primary">Registarse</button>
               </div>

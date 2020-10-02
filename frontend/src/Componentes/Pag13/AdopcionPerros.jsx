@@ -3,6 +3,7 @@ import Perro1 from '../img/Pitbull.jpg';
 import Perro2 from '../img/Beagle.jpg';
 import Perro3 from '../img/Pastor.jpg'
 import Logo from '../img/Logo1.png';
+import './AdopcionPerros.css';
 
 
 function AdopcionPerros () {
@@ -72,7 +73,7 @@ PetSociety</a>
             </form>
         </div>
     </nav>
-    <h1 className="adopperros">Sección adopción de perros</h1>
+    <h1 className="adopperros mt-4">Sección adopción de perros</h1>
 
 <div className="album py-5 bg-light">
 <div className="container">

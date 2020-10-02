@@ -73,7 +73,7 @@ function ConsejosPerros(){
 <br></br>
 <br></br>
 <div className=" container text-center"> 
-           <h1 className="tituloconsejosperros text-center  mt-3 "><b>Consejos</b></h1>
+           <h1 className="tituloconsejosperros text-center  mt-4 "><b>Consejos</b></h1>
            <h5 className="text-center">¿Cómo bañar a un perro cachorro por primera vez?</h5>
            <ReactPlayer 
             url="https://www.youtube.com/watch?v=XmaN-m5rm6E"

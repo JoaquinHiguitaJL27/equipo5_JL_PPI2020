@@ -3,7 +3,7 @@
     color: white;
     text-align: center;
     background: #057FFF  ;
-    height: 100px;
+
     align-items: center;
 }
 
@@ -27,7 +27,7 @@
  
 }
 .Boton3{
-    text-align: center;
+   align-content: center;
    
 }
 .Boton4{
