@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo1 from '../img/Logosincachito.png'
+import Logo1 from '../img/Logosincachito.png';
 import './RegistroE.css';
 
 

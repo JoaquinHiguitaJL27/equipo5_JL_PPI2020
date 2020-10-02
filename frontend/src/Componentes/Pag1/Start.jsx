@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo1 from '../img/Logosincachito.png';
 import './StartE.css';
-
+import {Link} from 'react-router-dom'; 
 
 function Start(){
     return(
@@ -15,11 +15,10 @@ function Start(){
     
 
        <div className="Botonbienvenido mt-5 mb-5">
-        <button type="button"  className="btn btn-primary btn-lg">Start</button>
+        <Link to="/inicio" role="button" className="btn btn-primary btn-lg">Start</Link>
+
                </div>
                </div>
-
-
 
 </>
     );
