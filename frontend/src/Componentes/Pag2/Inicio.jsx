@@ -3,7 +3,7 @@ import Logo1 from '../img/Logosincachito.png';
 import FB  from '../img/IconFB.png';
 import GM from '../img/IconGM.png';
 import './InicioE.css';
-
+import {Link} from 'react-router-dom'; 
 
 function Inicio() {
   return (
@@ -37,7 +37,7 @@ function Inicio() {
       <br></br>
       <h3 className="O">O</h3>
       <div className="Boton2">
-        <button type="button" class="btn btn-primary">Registarse</button>
+        <Link to="/registrarse" role="button" class="btn btn-primary">Registarse</Link>
       </div>
       <br></br>
      
@@ -51,7 +51,9 @@ function Inicio() {
       
       <br></br>
       <div className="Boton4">
-        <button type="button" className="btn btn-danger   ">Ingresar con Gmail</button>
+        <button type="button" className="btn btn-danger">
+        <img src={GM} style={{marginRight:"20px"}}width="25px"></img>
+          Ingresar con Gmail</button>
       </div>
 
 
