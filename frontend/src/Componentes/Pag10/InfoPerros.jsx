@@ -73,9 +73,11 @@ function InfoPerros() {
             </nav>
 
 
-            <h2 className="jl text-center">¿Cómo bañar a un cachorro por primera vez?</h2>
+            <h2 className="jl text-center mt-4">¿Cómo bañar a un cachorro por primera vez?</h2>
 
+<center>
             <img className="container" src={BP} />
+            </center>
 <br></br>
 <br></br>
 

@@ -25,7 +25,7 @@ import ComunidadPet from './Paginas/ComunidadPet';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Calendarios />
+    <App />
 
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,14 +1,14 @@
 import React from 'react';
 
-import TableroNece from '../Componentes/Pag9/TableroNece';
+import PBaños from '../Componentes/Pag9/PBaños';
 
 
 
-export default function Calendarios() {
+export default function Baños() {
     return ( 
           <div>  
               
-           <TableroNece/>
+           <PBaños/>
           
             
         </div>

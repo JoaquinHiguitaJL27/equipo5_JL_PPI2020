@@ -24,7 +24,7 @@ import Producto17 from '../img/Acc1.2.png';
 import Producto18 from '../img/Acc1.3.png';
 import Producto19 from '../img/Acc1.4.png';
 import Producto20 from '../img/Acc1.5.png';
-
+import {Link} from 'react-router-dom'; 
 
 function ProductosPerros() {
     return (
@@ -44,8 +44,8 @@ function ProductosPerros() {
                                 Productos
         </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Perros</a>
-                                <a className="dropdown-item" href="#">Gatos</a>
+                                <Link to="/ProductosP" className="dropdown-item" href="#">Perros</Link>
+                                <Link to="/ProductosG" className="dropdown-item" href="#">Gatos</Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
@@ -64,8 +64,8 @@ function ProductosPerros() {
                                 Consejos
         </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Perros</a>
-                                <a className="dropdown-item" href="#">Gatos</a>
+                                <Link to="/ConsejosP" className="dropdown-item" href="#">Perros</Link>
+                                <Link to="ConsejosG" className="dropdown-item" href="#">Gatos</Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown">

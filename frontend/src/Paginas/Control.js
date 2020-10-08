@@ -1,14 +1,14 @@
 import React from 'react';
 
-import TableroNece from '../Componentes/Pag9/TableroNece';
+import PControl from '../Componentes/Pag9/PControl';
 
 
 
-export default function Calendarios() {
+export default function Control() {
     return ( 
           <div>  
               
-           <TableroNece/>
+           <PControl/>
           
             
         </div>
