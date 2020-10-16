@@ -1,14 +1,14 @@
 import React from 'react';
 
-import TableroNece from '../Componentes/Pag9/TableroNece';
+import PVitaminas from '../Componentes/Pag9/PVitaminas';
 
 
 
-export default function Calendarios() {
+export default function Vitaminas() {
     return ( 
           <div>  
               
-           <TableroNece/>
+           <PVitaminas/>
           
             
         </div>

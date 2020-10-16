@@ -2,6 +2,7 @@ import React from 'react';
 import './ConsejosPE.css';
 import Logo from '../img/Logo1.png';
 import ReactPlayer from 'react-player';
+import {Link} from 'react-router-dom'; 
 
 function ConsejosPerros(){
     return(
@@ -80,7 +81,7 @@ function ConsejosPerros(){
             className="Video"
             controls
             /> 
-            <a class="btn btn-primary mt-2" href="#" role="button">Más información</a>
+            <Link to="/masinfoP" role="button" class="btn btn-primary mt-2" href="#"> Más información</Link>
             </div>
       
         

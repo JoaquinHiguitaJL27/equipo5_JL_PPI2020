@@ -73,9 +73,11 @@ function InfoGatos() {
             </nav>
 
 
-            <h2 className="jl text-center">¿Cómo bañar a un gato adulto por primera vez?</h2>
-
-            <img className="container" src={BG} />
+            <h2 className="jl text-center mt-4">¿Cómo bañar a un gato adulto por primera vez?</h2>
+<center>
+<img className="container" src={BG} />
+</center>
+            
 <br></br>
 <br></br>
             <p className="Parrafo">La mayoría de los gatos pasan su vida sin necesidad de tomar un baño, pero a veces un chapuzón rápido es inevitable.

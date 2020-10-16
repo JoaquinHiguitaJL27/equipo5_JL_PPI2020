@@ -1,14 +1,14 @@
 import React from 'react';
 
-import TableroNece from '../Componentes/Pag9/TableroNece';
+import PComidas from '../Componentes/Pag9/PComidas';
 
 
 
-export default function Calendarios() {
+export default function Comidas() {
     return ( 
           <div>  
               
-           <TableroNece/>
+           <PComidas/>
           
             
         </div>

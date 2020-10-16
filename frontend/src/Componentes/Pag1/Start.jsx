@@ -15,6 +15,7 @@ function Start(){
     
 
        <div className="Botonbienvenido mt-5 mb-5">
+           
         <Link to="/inicio" role="button" className="btn btn-primary btn-lg">Start</Link>
 
                </div>
