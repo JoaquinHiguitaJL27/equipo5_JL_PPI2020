@@ -1,0 +1,103 @@
+import React from 'react';
+import './Calificacion.css';
+import Logo from '../img/Logo.png';
+import Logo2 from '../img/Logo_2.png';
+
+    function Pagina2 () {
+        return(
+          <>
+          <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
+  <a className="navbar-brand" href="/#">
+  <img alt="description" src={Logo} width="30" height="30" class="d-inline-block align-top mr-2" loading="lazy" />
+    PetSociety</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="/#">Perros</a>
+          <a className="dropdown-item" href="/#">Gatos</a>
+        </div>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mis Mascotas
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="/#">Registra a tus mascotas</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/#">Calendario<span class="sr-only">(current)</span></a>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Consejos
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="/#">Perros</a>
+          <a className="dropdown-item" href="/#">Gatos</a>
+        </div>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Adopciones
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="/#">Perros</a>
+          <a className="dropdown-item" href="/#">Gatos</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/#">Calificación<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/#">Configuración<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+      <button className="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+         <div className="container text-center">
+         <h1 className="text-center text-light bg-primary mt-5 mb-2"><b>Calificanos</b></h1>
+         <img alt="description" src={Logo2} />
+  <div class="rating mb-3 text-center">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+ </div>
+            <div className="input-group mb-4">
+  <div className="input-group-prepend">
+    <span className="input-group-text bg-primary text-light" id="basic-addon1"><b>Nombre</b></span>
+  </div>
+  <input type="text" className="form-control" placeholder="Nombre completo" aria-label="Username" aria-describedby="basic-addon1" />
+</div>
+
+<div className="input-group mb-4">
+<div className="input-group-append">
+    <span className="input-group-text bg-primary text-light" id="basic-addon2"><b>Correo</b></span>
+  </div>
+  <input type="text" className="form-control" placeholder="Petsociety@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+</div>
+
+<div class="form-group">
+    <h4 for="exampleFormControlTextarea1" className="text-light bg-primary"><b>Tu comentario</b></h4>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+<button type="submit" className="btn btn-primary btn-lg mt-4 mb-3"><b>Enviar</b></button>
+</div> 
+</>
+        );
+    }
+    export default Pagina2;

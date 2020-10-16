@@ -1,0 +1,36 @@
+.Principal{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.Secundario{
+    margin: 0 auto;
+}
+.input-group-append{
+    display: flex;
+}
+.ola{
+    margin-left: auto;
+}
+.ola1{
+    margin-right: auto;
+}
+.ola2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.perfil{
+    width: 175px;
+    height: 165px;
+}
+/*
+.whatsappDiv.right {
+    position: fixed;
+    bottom: 25px;
+    right: 6px;
+    z-index: 610;
+    background: #65bc54;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+*/

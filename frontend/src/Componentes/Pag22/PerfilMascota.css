@@ -1,0 +1,37 @@
+.imag{
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+}
+.imag1{
+    border-radius: 24px;
+    height: 24px;
+    width: 24px;
+}
+.container-fluid{
+    text-align: center!important;
+}
+.contenedor{
+    min-width: 285px;
+    max-width: 450px;
+}
+.cuadro{
+    outline-color: black;
+    background-image: url(../img/FondoPerfil.jpg);
+    background-repeat: no-repeat;
+}
+.textoprro{
+    background-color: rgba(204, 204, 204, 0.671);
+    margin-left: 50%;
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+.textoprro1{
+    color: rgb(92, 92, 92);
+}
+.junto{
+    margin-right: auto;
+}
+.junto1{
+    margin-left: auto;
+}

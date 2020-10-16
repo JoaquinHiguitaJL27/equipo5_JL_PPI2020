@@ -1,5 +1,13 @@
-
-
+.ola{
+    margin-left: auto;
+}
+.ola1{
+    margin-right: auto;
+}
+.ola2{
+    margin-left: auto;
+    margin-right: auto;
+}
 .Boton2{
     text-align: center;
     color: #057fff;
@@ -11,7 +19,6 @@
         color: white;
         text-align: center;
         background: #057FFF  ;
-        align-items: center;
     }
     
     

@@ -1,0 +1,37 @@
+.rating {
+  unicode-bidi: bidi-override;
+   direction: rtl;
+ }
+ 
+ .rating span {
+      display: inline-block;
+     width: 1.1em;
+     font-size: 2.8em;
+      color: #ccc;
+     cursor: pointer;
+      text-shadow: 0 0 1px #666;
+  }
+ 
+  .rating span:hover,
+.rating span:hover ~ span {
+     color: gold;
+     text-shadow: 0 0 5px #e2e2e2;
+  }
+  
+ .rating span:active,
+  .rating span:active ~ span {
+      color: yellow;
+    }
+nav{
+    background-color: #007bff;
+}
+.enviar{
+    margin: 5%;
+
+}
+textarea{
+    border-bottom-color: #007bff!important;
+    border-top-color: #007bff!important;
+    border-left-color: #007bff!important;
+    border-right-color: #007bff!important;
+}

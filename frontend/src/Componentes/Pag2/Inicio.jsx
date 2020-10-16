@@ -31,7 +31,7 @@ function Inicio() {
           <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
         </div>
         <div className="Boton2">
-          <button type="submit" class="btn btn-primary">Ingresar</button>
+          <Link to="/abrebocas" type="submit" class="btn btn-primary">Ingresar</Link>
         </div>
       </form>
       <br></br>
