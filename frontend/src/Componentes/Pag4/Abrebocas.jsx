@@ -7,7 +7,7 @@ import Imagen1 from '../img/Carrusel1.jpg';
 import Imagen2 from '../img/Carrusel2.jpg';
 import Imagen3 from '../img/Perros y gatos.jpeg';
 import {Link} from 'react-router-dom'; 
-import './Pagina4.css';
+import './Abrebocas.css';
 
     function Compa () {
         return(
