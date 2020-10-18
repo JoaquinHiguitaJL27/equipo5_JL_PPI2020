@@ -20,6 +20,9 @@ import Necesidades from '../Paginas/Necesidades';
 import Medicamentos from '../Paginas/Medicamentos';
 import Vitaminas from '../Paginas/Vitaminas';
 import PreCalendarios from '../Paginas/PreCalendarios';
+import Calendario from '../Paginas/Calendario';
+import ConsejosG from '../Paginas/ConsejosG';
+import Calificacion from '../Paginas/Calificacion';
 
 
 function App() {
@@ -47,6 +50,9 @@ function App() {
      <Route exact path="/Medicamentos" component={Medicamentos} />
      <Route exact path="/Vitaminas" component={Vitaminas} />
      <Route exact path="/PreCalendarios" component={PreCalendarios} />
+     <Route exact path="/Calendario" component={Calendario} />
+     <Route exact path="/ConsejosG" component={ConsejosG} />
+     <Route exact path="/Calificacion" component={Calificacion} />
 
 
    </Switch>

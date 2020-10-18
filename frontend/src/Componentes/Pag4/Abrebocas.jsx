@@ -27,8 +27,8 @@ import './Abrebocas.css';
           Productos
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#/">Perros</a>
-          <a className="dropdown-item" href="#/">Gatos</a>
+          <Link to="/ProductosP" className="dropdown-item">Perros</Link>
+          <Link to="/ProductosG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li className="nav-item dropdown">
@@ -40,15 +40,15 @@ import './Abrebocas.css';
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#/">Calendario<span class="sr-only">(current)</span></a>
+        <Link to="/Calendario" class="nav-link" >Calendario<span class="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Consejos
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#/">Perros</a>
-          <a className="dropdown-item" href="#/">Gatos</a>
+          <Link to="/ConsejosP" className="dropdown-item">Perros</Link>
+          <Link to="/ConsejosG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li className="nav-item dropdown">
@@ -56,15 +56,15 @@ import './Abrebocas.css';
           Adopciones
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#/">Perros</a>
-          <a className="dropdown-item" href="#/">Gatos</a>
+          <Link to="/AdopcionP" className="dropdown-item">Perros</Link>
+          <Link to="/AdopcionG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#/">Calificación<span class="sr-only">(current)</span></a>
+        <Link to="/Calificacion" class="nav-link">Calificación<span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#/">Configuración<span class="sr-only">(current)</span></a>
+        <Link to="/Configuraciones" class="nav-link">Configuración<span class="sr-only">(current)</span></Link>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
