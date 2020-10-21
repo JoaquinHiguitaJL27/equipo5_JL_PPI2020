@@ -1,5 +1,5 @@
 import React from 'react';
-import RegistrarMascota from './8';
+import RegistrarMascota from '../Componentes/Pag20/RegistroMascota';
 
 
 function Pagina8() {

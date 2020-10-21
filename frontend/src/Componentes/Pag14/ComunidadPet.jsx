@@ -2,73 +2,77 @@ import React from 'react';
 import Logo from '../img/Logo.png';
 import  './ComunidadPet.css';
 import perfil from '../img/foto_perfil.png';
+import {Link} from 'react-router-dom'; 
 
 
 function ComunidadPet(){
     return(
 < >
-<nav class="navbar navbar-expand-xl navbar-dark bg-primary text-white">
-                <a class="navbar-brand" href="#">
-                    <img src={Logo} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
-    PetSociety</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
+  <Link to="/abrebocas" className="navbar-brand">
+  <img alt="responsive" src={Logo} width="30" height="30" class="d-inline-block align-top mr-2" loading="lazy" />
+    PetSociety</Link>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Productos
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Perros</a>
-                                <a class="dropdown-item" href="#">Gatos</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Mis Mascotas
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link to="/ProductosP" className="dropdown-item">Perros</Link>
+          <Link to="/ProductosG" className="dropdown-item">Gatos</Link>
+        </div>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mis Mascotas
         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Registra a tus mascotas</a>
-                                <a class="dropdown-item" href="#">Calendario</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Consejos
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link to="/Mismascotas" className="dropdown-item" href="#/">Registra a tus mascotas</Link>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <Link to="/Calendario" class="nav-link" >Calendario<span class="sr-only">(current)</span></Link>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Consejos
         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Perros</a>
-                                <a class="dropdown-item" href="#">Gatos</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Adopciones
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link to="/ConsejosP" className="dropdown-item">Perros</Link>
+          <Link to="/ConsejosG" className="dropdown-item">Gatos</Link>
+        </div>
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Adopciones
         </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Perros</a>
-                                <a class="dropdown-item" href="#">Gatos</a>
-                            </div>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link to="/AdopcionP" className="dropdown-item">Perros</Link>
+          <Link to="/AdopcionG" className="dropdown-item">Gatos</Link>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <Link to="/Calificacion" class="nav-link">Calificación<span class="sr-only">(current)</span></Link>
+      </li>
+      <li class="nav-item active">
+        <Link to="/Configuraciones" class="nav-link">Configuración<span class="sr-only">(current)</span></Link>
+      </li>
+      <li class="nav-item active">
+                    <Link to="/ComunidadPet" class="nav-link" >Comunidad<span class="sr-only">(current)</span></Link>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Calificacion<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Configuracion<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                    <a class="nav-link" href="#">Comunidad<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Productos, consejos..." aria-label="Search" />
-                        <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </nav>
+    </ul>
+    <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+      <button className="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+                   
         <div class="container-fluid">
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark mt-5">
     <div class="contenedor1 card-text">

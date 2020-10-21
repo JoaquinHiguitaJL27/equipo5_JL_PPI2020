@@ -30,7 +30,7 @@ function PMedicamentos() {
           Mis Mascotas
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#/">Registra a tus mascotas</a>
+          <Link to="/Mismascotas" className="dropdown-item" href="#/">Registra a tus mascotas</Link>
         </div>
       </li>
       <li class="nav-item active">
@@ -60,6 +60,9 @@ function PMedicamentos() {
       <li class="nav-item active">
         <Link to="/Configuraciones" class="nav-link">Configuración<span class="sr-only">(current)</span></Link>
       </li>
+      <li class="nav-item active">
+                    <Link to="/ComunidadPet" class="nav-link" >Comunidad<span class="sr-only">(current)</span></Link>
+                        </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

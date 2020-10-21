@@ -1,5 +1,5 @@
 import React from 'react';
-import Registro from './9';
+import Registro from '../Componentes/Pag21/PregMascota';
 
 
 function RegistroMascota() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Perfil from './6';
+import Perfil from '../Componentes/Pag18/Perfil';
 
 
 function Perfil1() {

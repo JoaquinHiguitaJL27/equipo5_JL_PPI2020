@@ -33,7 +33,7 @@ import {Link} from 'react-router-dom';
           Mis Mascotas
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#/">Registra a tus mascotas</a>
+          <Link to="/Mismascotas" className="dropdown-item" href="#/">Registra a tus mascotas</Link>
         </div>
       </li>
       <li class="nav-item active">
@@ -63,6 +63,9 @@ import {Link} from 'react-router-dom';
       <li class="nav-item active">
         <Link to="/Configuraciones" class="nav-link">Configuración<span class="sr-only">(current)</span></Link>
       </li>
+      <li class="nav-item active">
+                    <Link to="/ComunidadPet" class="nav-link" >Comunidad<span class="sr-only">(current)</span></Link>
+                        </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
@@ -83,7 +86,7 @@ import {Link} from 'react-router-dom';
 <h5 class="card-title text-white">Edad: 2 años</h5>
 <h5 class="card-title text-white">Raza: Beagle</h5>
     <div className="d-flex justify-content-center align-items-center">
-<a href="/#" class="btn btn-success">Ver perfil</a> 
+<Link to="/perfilmascota" className="btn btn-success">Ver perfil</Link> 
     </div>
     </div>
     </div>
@@ -97,7 +100,7 @@ import {Link} from 'react-router-dom';
 <h5 class="card-title text-white">Edad: 5 años</h5>
 <h5 class="card-title text-white">Raza: Persa</h5>
     <div className="d-flex justify-content-center align-items-center">
-<a href="/#" class="btn btn-success">Ver perfil</a>  
+    <Link to="/perfilmascota" className="btn btn-success">Ver perfil</Link> 
     </div>
     </div>
     </div>

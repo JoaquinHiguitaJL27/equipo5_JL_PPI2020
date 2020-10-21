@@ -25,7 +25,11 @@ import ConsejosG from '../Paginas/ConsejosG';
 import Calificacion from '../Paginas/Calificacion';
 import Tableronece from '../Paginas/Calendarios';
 import ComunidadPet from '../Paginas/ComunidadPet';
-
+import Mismascotas from '../Paginas/MisMascotas';
+import perfilmascota from '../Paginas/PerfilMascota';
+import perfilusuario from '../Paginas/Perfil';
+import registromascota from '../Paginas/RegistroMascota';
+import preguntasmascotas from '../Paginas/PregRegistroMascota';
 
 function App() {
   return (
@@ -57,7 +61,12 @@ function App() {
      <Route exact path="/Calificacion" component={Calificacion} />
      <Route exact path="/Tableronece" component={Tableronece} />
      <Route exact path="/ComunidadPet" component={ComunidadPet} />
-
+     <Route exact path="/Mismascotas" component={Mismascotas} />
+     <Route exact path="/perfilmascota" component={perfilmascota} />
+     <Route exact path="/perfilusuario" component={perfilusuario} />
+     <Route exact path="/registromascota" component={registromascota} />
+     <Route exact path="/preguntasmascotas" component={preguntasmascotas} />
+    
 
    </Switch>
    </BrowserRouter>

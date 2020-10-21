@@ -53,7 +53,7 @@ import {Link} from 'react-router-dom';
       </form>
 </div>
             <div className="text-right container-fluid">
-            <button type="submit" className="bg-primary text-light btn btn-lg mb-4">Continuar</button>
+            <Link to="/preguntasmascotas" role="button" className="bg-primary text-light btn btn-lg mb-4">Continuar</Link>
             </div>
     </>
         );

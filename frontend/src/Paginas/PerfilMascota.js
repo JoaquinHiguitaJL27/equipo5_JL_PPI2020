@@ -1,5 +1,5 @@
 import React from 'react';
-import PerfilMascota from './10';
+import PerfilMascota from '../Componentes/Pag22/PerfilMascota';
 
 
 function Perfi() {

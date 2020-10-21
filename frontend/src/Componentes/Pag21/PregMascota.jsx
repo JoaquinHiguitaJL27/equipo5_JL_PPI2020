@@ -185,6 +185,9 @@ import {Link} from 'react-router-dom';
   </label>
 </div>
                  </div> 
+                 <div className="text-right container-fluid">
+            <Link to="/Mismascotas" role="button" className="bg-primary text-light btn btn-lg mb-4">Continuar</Link>
+            </div>
       </>
         );
     }
