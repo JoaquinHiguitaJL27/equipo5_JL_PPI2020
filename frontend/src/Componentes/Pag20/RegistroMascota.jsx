@@ -1,6 +1,7 @@
 import React from 'react';
 import './RegistroMascota.css';
 import Perfil from '../img/foto_perfil.png';
+import {Link} from 'react-router-dom'; 
 
     function Pagina8 () {
         

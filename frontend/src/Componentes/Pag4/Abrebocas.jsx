@@ -9,7 +9,7 @@ import Imagen3 from '../img/Perros y gatos.jpeg';
 import {Link} from 'react-router-dom'; 
 import './Abrebocas.css';
 
-    function Compa () {
+    function abrebocas () {
         return(
           <>
           <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
@@ -147,4 +147,4 @@ import './Abrebocas.css';
 </>
         );
     }
-    export default Compa;  
+    export default abrebocas;  

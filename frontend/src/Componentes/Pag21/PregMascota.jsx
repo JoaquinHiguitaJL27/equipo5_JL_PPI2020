@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../img/Logo200.png';
 import './PregMascota.css';
+import {Link} from 'react-router-dom'; 
 
     function RegistroMascota () {
         return(

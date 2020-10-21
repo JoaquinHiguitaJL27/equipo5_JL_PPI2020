@@ -2,63 +2,64 @@ import React from 'react';
 import './ConsejosG.css';
 import Logo from '../img/Logo.png';
 import ReactPlayer from 'react-player';
+import {Link} from 'react-router-dom'; 
 
     function Consejos () {
         return(
 <>
 <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
-  <a className="navbar-brand" href="/#">
-  <img alt="description" src={Logo} width="30" height="30" class="d-inline-block align-top mr-2" loading="lazy" />
-    PetSociety</a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <Link to="/abrebocas" className="navbar-brand">
+  <img alt="responsive" src={Logo} width="30" height="30" class="d-inline-block align-top mr-2" loading="lazy" />
+    PetSociety</Link>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Productos
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="/#">Perros</a>
-          <a className="dropdown-item" href="/#">Gatos</a>
+          <Link to="/ProductosP" className="dropdown-item">Perros</Link>
+          <Link to="/ProductosG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Mis Mascotas
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="/#">Registra a tus mascotas</a>
+          <a className="dropdown-item" href="#/">Registra a tus mascotas</a>
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/#">Calendario<span class="sr-only">(current)</span></a>
+        <Link to="/Calendario" class="nav-link" >Calendario<span class="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Consejos
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="/#">Perros</a>
-          <a className="dropdown-item" href="/#">Gatos</a>
+          <Link to="/ConsejosP" className="dropdown-item">Perros</Link>
+          <Link to="/ConsejosG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle text-white" href="/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Adopciones
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="/#">Perros</a>
-          <a className="dropdown-item" href="/#">Gatos</a>
+          <Link to="/AdopcionP" className="dropdown-item">Perros</Link>
+          <Link to="/AdopcionG" className="dropdown-item">Gatos</Link>
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/#">Calificación<span class="sr-only">(current)</span></a>
+        <Link to="/Calificacion" class="nav-link">Calificación<span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/#">Configuración<span class="sr-only">(current)</span></a>
+        <Link to="/Configuraciones" class="nav-link">Configuración<span class="sr-only">(current)</span></Link>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
@@ -75,7 +76,7 @@ import ReactPlayer from 'react-player';
             className="Video"
             controls
             /> 
-            <a class="btn btn-primary btn-lg mt-2" href="/#" role="button">Más información</a>
+           <Link to="/masinfoG" role="button" class="btn btn-primary mt-2" href="#"> Más información</Link>
 </div>
 </>
         );

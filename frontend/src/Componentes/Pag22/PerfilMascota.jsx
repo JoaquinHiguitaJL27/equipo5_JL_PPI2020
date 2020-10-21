@@ -2,6 +2,7 @@ import React from 'react';
 import Perro1 from '../img/Beagle.jpg';
 import Circle from '../img/verde.png';
 import './PerfilMascota.css';
+import {Link} from 'react-router-dom'; 
 
     function Mascotas () {
         return(

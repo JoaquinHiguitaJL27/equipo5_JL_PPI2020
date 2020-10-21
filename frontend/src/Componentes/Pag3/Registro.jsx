@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo1 from '../img/Logosincachito.png';
 import './RegistroE.css';
-
+import {Link} from 'react-router-dom'; 
 
 function Registro() {
   return (
@@ -150,7 +150,7 @@ function Registro() {
         </div>
      
         <div classNameName="Boton2">
-              <button type="button" className="btn btn-primary">Registarse</button>
+        <Link to="/abrebocas" role="button" className="btn btn-primary btn-lg">Registrarse</Link>
               </div>
       </form>
       </div>   

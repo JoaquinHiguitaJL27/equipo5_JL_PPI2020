@@ -23,6 +23,8 @@ import PreCalendarios from '../Paginas/PreCalendarios';
 import Calendario from '../Paginas/Calendario';
 import ConsejosG from '../Paginas/ConsejosG';
 import Calificacion from '../Paginas/Calificacion';
+import Tableronece from '../Paginas/Calendarios';
+import ComunidadPet from '../Paginas/ComunidadPet';
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
      <Route exact path="/Calendario" component={Calendario} />
      <Route exact path="/ConsejosG" component={ConsejosG} />
      <Route exact path="/Calificacion" component={Calificacion} />
+     <Route exact path="/Tableronece" component={Tableronece} />
+     <Route exact path="/ComunidadPet" component={ComunidadPet} />
 
 
    </Switch>
