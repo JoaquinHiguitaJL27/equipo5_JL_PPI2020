@@ -29,6 +29,7 @@ import {Link} from 'react-router-dom';
 function ProductosPerros() {
     return (
         <>
+
       <nav className="navbar navbar-expand-xl navbar-dark bg-primary text-white">
   <Link to="/abrebocas" className="navbar-brand">
   <img alt="responsive" src={Logo} width="30" height="30" class="d-inline-block align-top mr-2" loading="lazy" />
@@ -53,11 +54,9 @@ function ProductosPerros() {
           Mis Mascotas
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <Link to="/Mismascotas" className="dropdown-item" href="#/">Registra a tus mascotas</Link>
+          <Link to="/Mismascotas" className="dropdown-item">Registra a tus mascotas</Link>
+          <Link to="/Calendario" class="dropdown-item" >Calendario</Link>
         </div>
-      </li>
-      <li class="nav-item active">
-        <Link to="/Calendario" class="nav-link" >Calendario<span class="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -85,7 +84,7 @@ function ProductosPerros() {
       </li>
       <li class="nav-item active">
                     <Link to="/ComunidadPet" class="nav-link" >Comunidad<span class="sr-only">(current)</span></Link>
-                        </li>
+      </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
@@ -93,7 +92,6 @@ function ProductosPerros() {
     </form>
   </div>
 </nav>
-
 
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">

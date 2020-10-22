@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
         return(
       <>
           <div className="text-center container-fluid">
+          <div className="card shadow-lg p-3 mb-4 container">
           <h6 className="text-dark mt-4">Bienvenid@, para continuar con el registro responde lo siguiente:</h6>
                 <br></br>
           <img alt="description" src={Logo} className="mb-4" />
@@ -184,8 +185,9 @@ import {Link} from 'react-router-dom';
     Cada +4 meses
   </label>
 </div>
+          </div>
                  </div> 
-                 <div className="text-right container-fluid">
+            <div className="text-right container-fluid">
             <Link to="/Mismascotas" role="button" className="bg-primary text-light btn btn-lg mb-4">Continuar</Link>
             </div>
       </>

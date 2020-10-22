@@ -9,8 +9,7 @@ import {Link} from 'react-router-dom';
             <>
 
             <div className="container-fluid">
-
-            <div className="contenedor text-left">
+            <div className="contenedor text-left card shadow-lg p-3 mb-4 mt-5">
                 <div className="cuadro text-right">
                 <img src={Perro1} className="imag mb-3 mr-3 mt-3" />
                 <h3 className="mr-3 mb-3 textoprro"><b>Copito</b></h3>
@@ -28,8 +27,10 @@ import {Link} from 'react-router-dom';
                 <h6 className="mt-3">Contacto: 3206270582</h6>
             </div>
             </div>
-            <h5 className="textoprro1 text-left d-inline mr-4"><b>Distintivo de ubicación</b></h5>
-            <img src={Circle} className="imag1 d-inline" />
+            <div className="">
+            <h5 className="textoprro1 text-left mr-4"><b>Distintivo de ubicación</b></h5>
+            <img src={Circle} className="imag1" />
+            </div>
             <button className="btn btn-primary mt-3 d-block">Editar perfil</button>
 
             </div>

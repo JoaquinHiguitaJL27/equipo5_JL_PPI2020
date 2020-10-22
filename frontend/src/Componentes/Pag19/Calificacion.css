@@ -35,3 +35,6 @@ textarea{
     border-left-color: #007bff!important;
     border-right-color: #007bff!important;
 }
+.tamaño{
+    max-width: 400px;
+}

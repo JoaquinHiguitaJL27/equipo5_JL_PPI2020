@@ -31,11 +31,12 @@ import {Link} from 'react-router-dom';
           Mis Mascotas
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <Link to="/Mismascotas" className="dropdown-item" href="#/">Registra a tus mascotas</Link>
+          <Link to="/Mismascotas" className="dropdown-item">Registra a tus mascotas</Link>
+          <Link to="/Calendario" className="dropdown-item" >Calendario</Link>
         </div>
       </li>
       <li class="nav-item active">
-        <Link to="/Calendario" class="nav-link" >Calendario<span class="sr-only">(current)</span></Link>
+        
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle text-white" href="#/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,9 +72,12 @@ import {Link} from 'react-router-dom';
     </form>
   </div>
 </nav>
-         <div className="container text-center">
-         <h1 className="text-center text-light bg-primary mt-5 mb-2"><b>Calificanos</b></h1>
+
+<h1 className="text-center text-light bg-primary mt-5 mb-2"><b>Calificanos</b></h1>
+         <div className="card shadow-lg p-3 mb-4 container">
+         <center>
          <img alt="description" src={Logo2} />
+         </center>
   <div class="rating mb-3 text-center">
     <span>★</span>
     <span>★</span>
@@ -95,12 +99,13 @@ import {Link} from 'react-router-dom';
   <input type="text" className="form-control" placeholder="Petsociety@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2" />
 </div>
 
-<div class="form-group">
-    <h4 for="exampleFormControlTextarea1" className="text-light bg-primary"><b>Tu comentario</b></h4>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+    <h4 for="exampleFormControlTextarea1" className="text-light bg-primary p-2"><b>Tu comentario</b></h4>
+    <textarea className="form-control tamaño" id="exampleFormControlTextarea1" rows="2"></textarea>
+
 <Link to="/abrebocas"role="button" className="btn btn-primary btn-lg mt-4 mb-3"><b>Enviar</b></Link>
-</div> 
+
+    </div> 
+
 </>
         );
     }

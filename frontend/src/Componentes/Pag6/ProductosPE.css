@@ -5,3 +5,11 @@
     background: #057FFF  ;
     align-items: center;
 }
+.card-body{
+    background-color: #B7BFCA;
+    height: 12rem;
+}
+.card-img-top{
+    background-color: #E1E4E8;
+    height: 18rem;
+}
