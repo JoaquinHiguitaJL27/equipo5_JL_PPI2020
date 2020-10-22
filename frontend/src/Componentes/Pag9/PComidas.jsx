@@ -72,6 +72,7 @@ function PComidas() {
 </nav>
 
             <h1 className="tituloregistro mt-4">Programación de comidas</h1>
+            <div className="card shadow-lg p-3 mb-4 container">
             <center>
                 <img className="logo" src={Comidas} width="200px"></img>
             </center>
@@ -110,6 +111,9 @@ function PComidas() {
                 <Link to="/Calendario" class="btn btn-primary">Guardar</Link> 
                 </div>
             </form>
+
+</div>
+
         </>
     )
 

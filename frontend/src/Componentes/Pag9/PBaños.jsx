@@ -73,6 +73,7 @@ return(
 </nav>
     
     <h1 className="tituloregistro mt-4">Programación de baños</h1>
+      <div className="card shadow-lg p-3 mb-4 container">
       <center>
       <img className="logo" src={Baños} width="200px"></img>
       </center>
@@ -114,6 +115,7 @@ return(
               <br></br>
               <p className="recor">Recuerda que para saber cada cuanto debemos bañar nuestras mascotas hay unos parametros estipulado, para saber más acerca de este tema puedes consultar en nuestra sección de consejos y segun el tipo de mascota</p>
       </form>
+  </div>
     </>
 )
 

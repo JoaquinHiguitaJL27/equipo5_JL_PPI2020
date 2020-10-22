@@ -78,7 +78,7 @@ function TableroNece() {
       <div className="container text-center">
 
         <img className="mb-2 mt-2 logoconfig" src={Logo} />
-        <h1 className="tituloconfig mt-5 mb-5">Tablero de necesidades</h1>
+        <h1 className="tituloconfig mt-2 mb-5">Tablero de necesidades</h1>
 
         <Link to="/Comidas" role="button" className="btn btn-primary btn-lg btn-block">
           <img src={Comidas} style={{ marginRight: "20px" }} width="100px"></img>
@@ -105,7 +105,7 @@ Necesidades</Link>
 Control de veterinaria</Link>
 
 
-        <Link to="/Vitaminas" role="button" className="btn btn-primary btn-lg btn-block">
+        <Link to="/Vitaminas" role="button" className="btn btn-primary btn-lg btn-block mb-4">
           <img src={Vitaminas} style={{ marginRight: "20px" }} width="100px"></img>
 Vitaminas</Link>
 
