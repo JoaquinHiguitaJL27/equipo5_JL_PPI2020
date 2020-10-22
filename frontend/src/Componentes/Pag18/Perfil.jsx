@@ -77,7 +77,12 @@ import './Perfil.css';
           <div className="text-center container-fluid">
           <h1 className="bg-primary text-light mt-5 mb-3">Perfil de Petsociety</h1>
                 <br></br>
+
+                <div className="card shadow-lg p-3 mb-4 container">
+          <center>
           <img alt="description" src={Foto} className="rounded-circle perfil mb-4" />
+          </center>
+          
   
 <div class="input-group">
 
@@ -110,7 +115,7 @@ import './Perfil.css';
             </div>
             
           </div>  
-
+          </div>
                  </div> 
       </>
         );

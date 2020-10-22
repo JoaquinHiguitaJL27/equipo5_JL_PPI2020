@@ -108,8 +108,8 @@ import './Abrebocas.css';
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img alt="description" src={Purina1} className="card-img-top" />
-            <div className="card-body chocolatina">
+          <img alt="description" src={Purina1} className="card-img-top cuerpo-top" />
+            <div className="card-body cuerpo">
             <h5 class="card-title text-dark">Comida para perro</h5>
               <p className="card-text text-dark">Mirringo, para adultos, 8kg.</p>
               <div className="d-flex justify-content-center align-items-center">
@@ -120,8 +120,8 @@ import './Abrebocas.css';
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img alt="description" src={Purina2} className="card-img-top" />
-            <div className="card-body chocolatina">
+          <img alt="description" src={Purina2} className="card-img-top cuerpo-top" />
+            <div className="card-body cuerpo">
               <h5 class="card-title text-dark">Comida para perro</h5>
               <p className="card-text text-dark">Chunky, para adulto (Para todas las razas), sabor pollo, 25kg.</p>
               <div className="d-flex justify-content-center align-items-center">
@@ -132,8 +132,8 @@ import './Abrebocas.css';
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img alt="description" src={Purina3} className="card-img-top" />
-            <div className="card-body chocolatina">
+          <img alt="description" src={Purina3} className="card-img-top cuerpo-top" />
+            <div className="card-body cuerpo">
             <h5 class="card-title text-dark">Comida para perro</h5>
               <p className="card-text text-dark">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
               <div className="d-flex justify-content-center align-items-center">

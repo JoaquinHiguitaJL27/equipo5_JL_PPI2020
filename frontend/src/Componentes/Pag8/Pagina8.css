@@ -5,5 +5,15 @@
     border-right-color: #007bff!important;
 }
 .creditos{
-    background-color: lightgray;
+    background-color: white!important;
 }
+.form-control{
+    border-bottom-color: #007bff!important;
+    border-top-color: #007bff!important;
+    border-left-color: #007bff!important;
+    border-right-color: #007bff!important;
+}
+.input-group{
+    min-width: auto!important;
+}
+
