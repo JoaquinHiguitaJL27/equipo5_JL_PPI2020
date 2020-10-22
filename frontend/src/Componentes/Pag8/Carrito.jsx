@@ -70,6 +70,7 @@ import {Link} from 'react-router-dom';
   </div>
 </nav>
 
+<div className="container-fluid">
             <h1 className="text-center text-light bg-primary mt-5 mb-4"><b>Pago</b></h1>
             <div className="container">
           <div className=" card shadow-lg p-3 mb-4">
@@ -113,15 +114,15 @@ import {Link} from 'react-router-dom';
           <strong>$24.000</strong>
         </li>
       </ul>
-
-      <form class="card p-2">
+      <form className="card p-2">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Código promocional" />
-          <div class="input-group-append">
-            <button type="submit" class="btn btn-primary">Añadir</button>
+          <input type="text" className="form-control" placeholder="Código promocional" />
+          <div class="input-group-prepend">
+            <button type="submit" className="btn btn-primary">Añadir</button>
           </div>
         </div>
-      </form>
+        </form>
+      
 </div>
 <div className="col-md-8 order-md-1">
                 <div className="row">
@@ -252,14 +253,17 @@ import {Link} from 'react-router-dom';
 </div>
   </div>
 </div>
-        <footer className="creditos my-5 pt-2 text-dark text-center text-small">
+<footer className="creditos mt-5 pt-2 text-dark text-center text-small">
         <p class="mb-1">© 2020 PetSociety</p>
         <ul class="list-inline">
       <li class="list-inline-item"><a href="/#">Privacidad</a></li>
       <li class="list-inline-item"><a href="/#">Términos</a></li>
       <li class="list-inline-item"><a href="/#">Soporte</a></li>
         </ul>
-    </footer>
+</footer>
+
+</div>
+
 </>
         );
     }

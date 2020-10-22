@@ -128,8 +128,8 @@ function ProductosPerros() {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto1} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto1} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Mirringo, para adultos, 8kg.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -140,8 +140,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto2} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto2} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Chunky, para adulto (Para todas las razas), sabor pollo, 25kg.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -152,8 +152,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto3} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto3} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -164,8 +164,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto4} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto4} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -176,8 +176,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto5} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto5} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -188,8 +188,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto6} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto6} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -200,8 +200,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto7} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto7} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -212,8 +212,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto8} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto8} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -224,8 +224,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto9} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto9} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -236,8 +236,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto10} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto10} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -248,8 +248,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto11} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto11} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -260,8 +260,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto12} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto12} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -272,8 +272,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto13} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto13} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -284,8 +284,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto14} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto14} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -296,8 +296,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto15} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto15} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -308,8 +308,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto16} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto16} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -320,8 +320,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto17} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto17} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -332,8 +332,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto18} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto18} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -344,8 +344,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto19} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto19} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
@@ -356,8 +356,8 @@ function ProductosPerros() {
                         </div>
                         <div className="col-md-4">
                             <div className="card mb-4 shadow-sm">
-                                <img src={Producto20} className="card-img-top" alt="" />
-                                <div className="card-body">
+                                <img src={Producto20} className="card-img-top cuerpo-top" alt="" />
+                                <div className="card-body cuerpo">
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
