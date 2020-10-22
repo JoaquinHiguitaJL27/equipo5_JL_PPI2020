@@ -17,13 +17,13 @@ import {Link} from 'react-router-dom';
             <div className="d-flex">
 
               <div className="text-left">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                   <label class="form-check-label" for="defaultCheck1">
                   Cada 8 días
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 15 días
@@ -31,7 +31,7 @@ import {Link} from 'react-router-dom';
                   </div>
               </div>
               <div className="text-center">
-                <div class="form-check d mr-4 mb-2">
+                <div class="form-check d mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 1 mes
@@ -39,13 +39,13 @@ import {Link} from 'react-router-dom';
                 </div>
               </div>
               <div className="text-right">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 2 mes
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 3 mes
@@ -57,13 +57,13 @@ import {Link} from 'react-router-dom';
         <h4 className="text-dark mt-4 mb-4">¿Cada cuánto come tu mascota?</h4>
           <div className="d-flex">
             <div className="text-left">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                   <label class="form-check-label" for="defaultCheck1">
                   Cada 1-2 horas
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 3-4 horas
@@ -71,13 +71,13 @@ import {Link} from 'react-router-dom';
                   </div>
             </div>
             <div className="text-right">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 5-6 horas
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
                   <label class="form-check-label" for="defaultCheck2">
                   No lo sé
@@ -88,13 +88,13 @@ import {Link} from 'react-router-dom';
         <h4 className="text-dark mt-4 mb-4">¿Cada cuánto bebe agua tu mascota?</h4>
           <div className="d-flex">
             <div className="text-left">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
                   <label class="form-check-label" for="defaultCheck1">
                   Cada 30 minutos
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 1 hora
@@ -102,13 +102,13 @@ import {Link} from 'react-router-dom';
                   </div>
             </div>
             <div className="text-center">
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 2 horas
                   </label>
                 </div>
-                <div class="form-check mr-4 mb-2">
+                <div class="form-check mr-2 mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
                   <label class="form-check-label" for="defaultCheck2">
                   Cada 3 horas
@@ -116,13 +116,13 @@ import {Link} from 'react-router-dom';
                 </div>
             </div>
             <div className="text-right">
-              <div class="form-check mr-4 mb-2">
+              <div class="form-check mr-2 mb-2">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
                 <label class="form-check-label" for="defaultCheck2">
                 Cada +4 horas
                 </label>
               </div>
-              <div class="form-check mr-4 mb-2">
+              <div class="form-check mr-2 mb-2">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
                 <label class="form-check-label" for="defaultCheck2">
                 No lo sé
@@ -135,13 +135,13 @@ import {Link} from 'react-router-dom';
         <h4 className="text-dark mt-4 mb-4">¿Cada cuánto va al baño tu mascota?</h4>
         <div className="d-flex">
             <div className="text-left">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
   <label class="form-check-label" for="defaultCheck1">
     Cada 1-2 horas
   </label>
 </div>
-<div class="form-check mr-4 mb-2">
+<div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 3-4 horas
@@ -149,13 +149,13 @@ import {Link} from 'react-router-dom';
 </div>
             </div>
             <div className="text-right">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 5-6 horas
   </label>
 </div>
-<div class="form-check mr-4 mb-2">
+<div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
   <label class="form-check-label" for="defaultCheck2">
     No lo sé
@@ -167,7 +167,7 @@ import {Link} from 'react-router-dom';
         <h4 className="text-dark mb-4">¿Tu mascota tiene las vacunas al día?</h4>
         <div className="d-flex">
             <div className="text-left">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
   <label class="form-check-label" for="defaultCheck1">
     Sí
@@ -176,7 +176,7 @@ import {Link} from 'react-router-dom';
             </div>
             <div className="text-center">
                 
-<div class="form-check mr-4 mb-2">
+<div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
   <label class="form-check-label" for="defaultCheck2">
     No
@@ -184,7 +184,7 @@ import {Link} from 'react-router-dom';
 </div>
             </div>
             <div className="text-right">
-            <div class="form-check d mr-4 mb-2">
+            <div class="form-check d mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
   <label class="form-check-label" for="defaultCheck2">
     No lo sé
@@ -197,13 +197,13 @@ import {Link} from 'react-router-dom';
         <h4 className="text-dark mt-4 mb-4">¿Cada cuánto llevas a tu mascota a control?</h4>
         <div className="d-flex">
             <div className="text-left">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
   <label class="form-check-label" for="defaultCheck1">
     Cada 15 días
   </label>
 </div>
-<div class="form-check mr-4 mb-2">
+<div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 1 mes
@@ -211,7 +211,7 @@ import {Link} from 'react-router-dom';
 </div>
             </div>
             <div className="text-center">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 2 meses
@@ -219,13 +219,13 @@ import {Link} from 'react-router-dom';
 </div>
             </div>
             <div className="text-right">
-            <div class="form-check mr-4 mb-2">
+            <div class="form-check mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 3 meses
   </label>
 </div>
-<div class="form-check d mr-4 mb-2">
+<div class="form-check d mr-2 mb-2">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" />
   <label class="form-check-label" for="defaultCheck2">
     Cada 4 meses
@@ -234,7 +234,7 @@ import {Link} from 'react-router-dom';
             </div>
           </div>
 
-          <div className="text-right container mr-5">
+          <div className="text-right container mt-3 mr-5">
             <Link to="/Mismascotas" role="button" className="bg-primary text-light btn btn-lg mb-4">Continuar</Link>
             </div>
 
