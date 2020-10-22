@@ -25,7 +25,7 @@ import {Link} from 'react-router-dom';
           </div>
           <div className="custom-file">
             <input type="file" className="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01"></input>
-            <label className="custom-file-label text-left" for="inputGroupFile01">Su foto de perfil</label>
+            <label className="custom-file-label text-left" for="inputGroupFile01">Foto</label>
           </div>
         </div>
         </div>
