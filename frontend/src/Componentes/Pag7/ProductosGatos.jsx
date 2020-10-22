@@ -155,7 +155,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                        <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -215,7 +215,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +251,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -263,7 +263,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -275,7 +275,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -287,7 +287,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
@@ -311,7 +311,7 @@ function ProductosGatos() {
                                     <h5 class="card-title">Comida para perro</h5>
                                     <p className="card-text">Pedigree, para cachorro, sabor pollo en salsa, 100gr.</p>
                                     <div className="d-flex justify-content-center align-items-center">
-                                        <a href="#" className="btn btn-success">Comprar</a>
+                                    <Link to="/pagar" class="btn btn-success">Comprar</Link>
                                     </div>
                                 </div>
                             </div>
