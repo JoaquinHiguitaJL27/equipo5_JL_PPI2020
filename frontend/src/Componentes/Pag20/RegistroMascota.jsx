@@ -7,13 +7,15 @@ import {Link} from 'react-router-dom';
         
         return(
     <>
-   <div className="text-center container-fluid">
-<h1 className="bg-primary text-light mt-5 mb-3">Registro de Petsociety</h1>
+    <h1 className="bg-primary text-light mt-5 mb-3 text-center">Registro de Petsociety</h1>
+   <div className="text-center container">
       
       <br></br>
-
       <br></br>
-<img alt="description" src={Perfil} className="rounded-circle perfil mb-4" />
+      <div className="card shadow-lg p-3 mb-4">
+        <center>
+        <img alt="description" src={Perfil} className="rounded-circle perfil mb-4" />
+        </center>
       <form>
           <div className="ola2 col-md-6">
 
@@ -51,10 +53,13 @@ import {Link} from 'react-router-dom';
           <input type="text" className="form-control  text-center" id="inputRaza" placeholder="Macho"></input>
         </div>
       </form>
-</div>
-            <div className="text-right container-fluid">
+      <div className="text-right mr-5">
             <Link to="/preguntasmascotas" role="button" className="bg-primary text-light btn btn-lg mb-4">Continuar</Link>
-            </div>
+      </div>
+</div>
+
+</div>
+
     </>
         );
     }
