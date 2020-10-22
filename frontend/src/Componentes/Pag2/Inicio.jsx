@@ -10,6 +10,7 @@ function Inicio() {
     <>
       <h1 class="tituloinicio mt-4">Bienvenido a PetSociety</h1>
 
+<div className="card shadow-lg p-3 mb-4 container">
 
 <center>
       <img className="container" style={{width:"15rem"}} src={Logo1} />
@@ -55,7 +56,7 @@ function Inicio() {
         <img src={GM} style={{marginRight:"20px"}}width="25px"></img>
           Ingresar con Gmail</button>
       </div>
-
+</div>
 
     </>
   );
