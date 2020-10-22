@@ -2,6 +2,7 @@ import React from 'react';
 import Perro1 from '../img/Beagle.jpg';
 import Perro2 from '../img/Persa.png';
 import Logo from '../img/Logo.png';
+import agregarmascota from '../img/agregarmascota.png';
 import './MisMascotas.css';
 import {Link} from 'react-router-dom'; 
 
@@ -99,6 +100,20 @@ import {Link} from 'react-router-dom';
 <h5 class="card-title text-white">Raza: Persa</h5>
     <div className="d-flex justify-content-center align-items-center">
     <Link to="/perfilmascota" className="btn btn-success">Ver perfil</Link> 
+    </div>
+    </div>
+    </div>
+    </div>
+    <div className="col-md-4">
+    <div className="card mb-4 shadow-sm">
+<img alt="description" src={agregarmascota} className="card-img-top" />
+    <div className="card-body hola text-left">
+<h3 class="card-title text-white">Agregar nueva mascota</h3>
+<h5 class="card-title text-white">Sexo: </h5>
+<h5 class="card-title text-white">Edad: </h5>
+<h5 class="card-title text-white">Raza: </h5>
+    <div className="d-flex justify-content-center align-items-center">
+<Link to="/registromascota" className="btn btn-success">Crear nuevo perfil</Link> 
     </div>
     </div>
     </div>

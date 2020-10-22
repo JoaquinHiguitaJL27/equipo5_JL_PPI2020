@@ -30,6 +30,7 @@ import perfilmascota from '../Paginas/PerfilMascota';
 import perfilusuario from '../Paginas/Perfil';
 import registromascota from '../Paginas/RegistroMascota';
 import preguntasmascotas from '../Paginas/PregRegistroMascota';
+import Necesidadestab from '../Paginas/Seguimientos11';
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
      <Route exact path="/perfilusuario" component={perfilusuario} />
      <Route exact path="/registromascota" component={registromascota} />
      <Route exact path="/preguntasmascotas" component={preguntasmascotas} />
-    
+     <Route exact path="/Necesidadestab" component={Necesidadestab} />
+     
 
    </Switch>
    </BrowserRouter>
