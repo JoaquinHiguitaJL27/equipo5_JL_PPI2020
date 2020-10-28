@@ -75,7 +75,7 @@ function AdopcionPerros () {
 
     <h1 className="adopperros mt-4">Sección adopción de perros</h1>
 
-<div className="album py-5 bg-light">
+
 <div className="container">
 
     <div className="row">
@@ -108,6 +108,8 @@ function AdopcionPerros () {
                     </div>
                 </div>
             </div>
+            </div>
+            <div className="col-md-4">
             <div className="card mb-4 shadow-sm">
                 <img src={Perro3} className="card-img-top" alt="" />
                 <div className="card-body">
@@ -121,9 +123,8 @@ function AdopcionPerros () {
                     </div>
                 </div>
             </div>
+            </div>
         </div>
-       </div>
-       </div>
        </div>
         </>
         );

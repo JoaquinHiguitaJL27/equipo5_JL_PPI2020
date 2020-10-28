@@ -74,13 +74,12 @@ import {Link} from 'react-router-dom';
 </nav>
         <h1 className="adopgatos mt-4">Sección adopción de gatos</h1>
 
-<div className="album py-5 bg-light">
     <div className="container">
 
         <div className="row">
             <div className="col-md-4">
                 <div className="card mb-4 shadow-sm">
-                    <img src={Gato1} className="card-img-top" alt="" />
+                    <img src={Gato1} className="card-img-top imagen-top" alt="" />
                     <div className="card-body">
                         <h5 class="card-title">Pelucha</h5>
                         <p className="card-text">Raza: Angora</p>
@@ -95,7 +94,7 @@ import {Link} from 'react-router-dom';
             </div>
             <div className="col-md-4">
                 <div className="card mb-4 shadow-sm">
-                    <img src={Gato2} className="card-img-top" alt="" />
+                    <img src={Gato2} className="card-img-top imagen-top" alt="" />
                     <div className="card-body">
                         <h5 class="card-title">Copita</h5>
                         <p className="card-text">Raza: Angora</p>
@@ -107,8 +106,10 @@ import {Link} from 'react-router-dom';
                         </div>
                     </div>
                 </div>
+            </div>
+              <div className="col-md-4">
                 <div className="card mb-4 shadow-sm">
-                    <img src={Gato3} className="card-img-top" alt="" />
+                    <img src={Gato3} className="card-img-top imagen-top" alt="" />
                     <div className="card-body">
                         <h5 class="card-title">Muñeca</h5>
                         <p className="card-text">Raza: criolla</p>
@@ -121,7 +122,6 @@ import {Link} from 'react-router-dom';
                     </div>
                 </div>
             </div>
-           </div>
            </div>
            </div>
             </>
