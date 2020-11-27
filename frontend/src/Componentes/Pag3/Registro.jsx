@@ -75,14 +75,14 @@ class Registro extends Component {
       <div className="form-row">
           <div className="col-6 mb-3">
             <label for="validationCustom01">Nombres</label>
-            <input type="text" className="form-control" id="validationCustom01" name="nombres" onChange={this.handleChange} value={this.state.losRegistros.nombres} required></input>
+            <input type="text" className="form-control" id="validationCustom01" name="nombres" onChange={this.handleChange} value={this.state.losRegistros.nombres}></input>
             <div className="valid-feedback">
               Looks good!
       </div>
           </div>
           <div className="col-6 mb-3">
             <label for="validationCustom02">Apellidos</label>
-            <input type="text" className="form-control" id="validationCustom02" name="apellidos" onChange={this.handleChange} value={this.state.losRegistros.apellidos} required></input>
+            <input type="text" className="form-control" id="validationCustom02" name="apellidos" onChange={this.handleChange} value={this.state.losRegistros.apellidos}></input>
             <div className="valid-feedback">
               Looks good!
       </div>
