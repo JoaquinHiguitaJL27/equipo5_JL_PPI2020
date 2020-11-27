@@ -73,14 +73,14 @@ class Registro extends Component {
         </div>
       </div>
       <div className="form-row">
-          <div className="col-6 mb-3">
-            <label for="validationCustom01">Nombres</label>
-            <input type="text" className="form-control" id="validationCustom01" name="nombres" onChange={this.handleChange} value={this.state.losRegistros.nombres}></input>
-          </div>
-          <div className="col-6 mb-3">
-            <label for="validationCustom02">Apellidos</label>
-            <input type="text" className="form-control" id="validationCustom02" name="apellidos" onChange={this.handleChange} value={this.state.losRegistros.apellidos}></input>
-          </div>
+      <div className="form-group col-6">
+          <label for="inputName">Nombres</label>
+          <input type="text" className="form-control" id="inputName" name="nombres" onChange={this.handleChange} value={this.state.losRegistros.nombres}></input>
+        </div>
+        <div className="form-group col-6">
+          <label for="inputLast">Apellidos</label>
+          <input type="text" className="form-control" id="inputLast" name="apellidos" onChange={this.handleChange} value={this.state.losRegistros.apellidos}></input>
+        </div>
         </div>
 
         <div className="form-group">
